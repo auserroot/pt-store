@@ -1,0 +1,25 @@
+div.HomeCenter {
+    background-color: #fff;
+    div.HomeCenter-top {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+      span {
+  font-size: 12px;
+  color: rgba(204, 51, 153, 0.556862745098039);
+  font-weight: 400;
+  margin: 10px 0;
+      }
+    }
+  
+    div.HomeCenter-center {
+  
+      img {
+width: 375px;
+height: 92px;
+
+      }
+    }
+  
+    
+  }

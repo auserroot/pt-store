@@ -1,0 +1,161 @@
+.order {
+  .user-msg {
+    margin: 45px auto 5px;
+    width: 98vw;
+    height: 70px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 15px;
+    .iconfont {
+      color: #ff4794;
+      font-size: 18px;
+    }
+    .icon-didian {
+      font-weight: bold;
+    }
+    .user-main-msg {
+      width: 240px;
+      color: #666;
+      .user-name-phone {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .order-goods {
+    width: 98vw;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+    border-radius: 5px;
+    overflow: hidden;
+    .goods-item {
+      border-bottom: 1px solid #efefef;
+      background-color: #fff;
+      height: 112px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 25px 0 35px;
+      img {
+        width: 66px;
+        height: 66px;
+      }
+      .goods-msg {
+        width: 220px;
+        color: #7a7a7a;
+        .goods-name {
+          font-size: 14px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .goods-type {
+          margin-top: 10px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .goods-bottom {
+          margin-top: 5px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .goods-price {
+            span:nth-of-type(1){
+              font-size: 14px;
+              font-weight: bold;
+              color: #ff7f55;
+            }
+            span:nth-of-type(2){
+              text-decoration: line-through;
+              color: #b0b0b0;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .order-fare {
+    margin: 5px auto 60px;
+    width: 98vw;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    &>div {
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding: 0 18px;
+      color: #666;
+    }
+    .total-fare {
+      height: 30px;
+    }
+    .coupons {
+      height: 30px;
+      span:nth-of-type(2) {
+        color: #ff99cc;
+        font-size: 14px;
+      }
+    }
+    .courier-fare {
+      margin-top: 15px;
+      height: 30px;
+    }
+    .courier-protect {
+      height: 30px;
+    }
+    .final-fare {
+      height: 65px;
+      justify-content: flex-end;
+      font-size: 18px;
+      color: #ff0000;
+    }
+  }
+  .order-pay {
+    background-color: #fff;
+    width: 100vw;
+    height: 56px;
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 7px;
+    .fare-need-pay {
+      display: flex;
+      align-items: center;
+      span:nth-of-type(1) {
+        font-weight: bold;
+        font-size: 14px;
+        color: #666;
+      }
+      span:nth-of-type(2) {
+        font-weight: bold;
+        font-size: 16px;
+        color: #ff0000;
+        margin-left: 5px;
+      }
+    }
+    .pay-fare {
+      width: 117px;
+      height: 51px;
+      background-color: #ff4794;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 1px;
+      text-align: center;
+      line-height: 51px;
+    }
+  }
+}

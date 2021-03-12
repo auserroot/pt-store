@@ -1,0 +1,27 @@
+div.information {
+    background-color: #fff;
+  
+    div.information-main {
+        margin-top: 50px;
+      div.information-items {
+          display: flex;
+          justify-content: space-around;
+          border-bottom: 1px solid #ccc;
+          height: 60px;
+          line-height: 60px;
+        div {
+
+            p{
+              line-height: 15px;
+              margin-top: 10px;  
+            }
+            span{
+                color:#ccc
+            }
+          span.iconfont.icon-xinxitongzhi {
+          color: blueviolet;
+          }
+        }
+      }
+    }
+  }

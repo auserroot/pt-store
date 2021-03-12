@@ -1,0 +1,257 @@
+ .myHeader {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: white;
+  span {
+    line-height: 1rem;
+    font-weight: 900;
+    font-size: 20px;
+  }
+}
+
+.pinkbox {
+  margin-top: 0.5rem;
+  background-color: #FF888A;
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  height: 4rem;
+  align-items: center;
+
+  .headPortrait {
+    display: block;
+    width: 25%;
+    
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  .userName {
+    width: 50%;
+    span {
+      display: block;
+    }
+  }
+
+  .invite {
+    width: 20%;
+    background-color: white;
+    border-radius: 5px;
+    width: 1.5rem;
+    text-align: center;
+    .link{
+      text-decoration:none;
+      color: purple;
+      
+    }
+  }
+}
+
+.accountBox{
+  width: 98%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 3.5rem;
+  left:0.25rem;
+  background-color: white;
+  .accBox{
+    width: 25%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-right: 1px black solid;
+    .number{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #FF0000;
+    }
+    .title{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+    color: #000000;
+    }
+  }
+}
+
+.orderscentre{
+  margin-top: 1.5rem;
+  .ordershead{
+    display: flex;
+    width: 100%;
+    height: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #666;
+    .ordertitle{
+      display: block;
+      font-size: 14px;
+      text-align: left;
+      font-weight: 700;
+      color: #666666;
+    }
+    .ordermore{
+      display: block;
+      font-size: 0.373333rem;
+      text-align: left;
+      font-weight: 700;
+      color: #CC00CC;;
+    }
+  }
+  .ordernext{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    // border-bottom: 1px solid #666;
+    .iconBox{
+    display: flex;
+    width:20%;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .icon{
+      font-size: 0.75rem ;
+      color: #CC00CC;
+    }
+    .title{
+      font-size:0.373333rem;
+      margin-top: 0.2rem;
+    }
+    }
+  }
+}
+
+.bargain{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center
+  img{
+    align-items: center;
+  }
+}
+
+.serviceBox{
+  .headline{
+    height: 1rem;
+    width: 100%;
+    font-size: 0.25rem;
+    line-height: 1rem;
+    font-weight: 700;
+  }
+  .service{
+  display:flex;
+  width: 100%;
+  height: 4rem;
+  flex-wrap:wrap;
+  .iconBox{
+    display:flex;
+    width: 33.3%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    .icon{
+    font-size: 0.75rem;
+    color: #CC00CC;
+    }
+    .title{
+      font-size:0.373333rem;
+      margin-top: 0.2rem;
+    }
+  }
+}
+}
+
+.modal-hidden{
+  display: none !important;
+}
+// .hidden{
+//   display: none !important;
+// }
+.modal-show{
+  display: block;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.active {
+  background: #389aff;
+  color: #fff;
+}
+
+.model {
+  background: rgba($color: #999, $alpha: 0.6) ;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .modelItem {
+    width: 90%;
+    height: 75%;
+    background: url(http://cloud.axureshop.com/gsc/EHWWNA/ff/7a/34/ff7a34d622a349d09ad75702612f8295/images/%E9%A6%96%E9%A1%B5/u1079.png?token=63a679f21ff90737e5e892c625a091b08ab9e8760224e48eaf6590dd3721b568)no-repeat ;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    border-radius: 4%;
+    
+    .title {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      h2 {
+        font-weight: 600;
+        font-size: 0.5rem;
+        align-self: center;
+      }
+      i {
+        width: 20px;
+        height: 20px;
+        font-style: normal;
+      }
+    }
+    .imgbox{
+      position: absolute;
+      top: 35%;
+      // left: 5%;
+      img{
+        width: 102%;
+      }
+    }
+    .weChat {
+      display: flex;
+      margin-top: 9rem;
+      
+      .box_f {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        img {
+          text-align: center;
+        }
+        span {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

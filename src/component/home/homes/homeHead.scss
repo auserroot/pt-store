@@ -1,0 +1,47 @@
+.homeHead {
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  .homeHead-left {
+    span.iconfont.icon-dizhi {
+      color:rgb(221, 85, 255);
+    }
+
+    select {
+      border: none;
+      outline: none;
+      option {
+
+      }
+    }
+  }
+
+  .homeHead-center {
+    position: relative;
+   .icon-sousuo{
+position: absolute;
+left: 30%;
+top: 1px;
+   }
+  
+    input.search {
+      border-radius: 10px;
+      border: 1px #ccc solid;
+      width: 225px;
+      height: 25px;
+font-size: 12px;
+padding-left: 100px;
+    }
+  }
+
+  .homeHead-right {
+ 
+    span {
+      color:rgb(221, 85, 255);
+      font-size: 20px;
+    }
+  }
+}

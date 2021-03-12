@@ -1,0 +1,42 @@
+div.purchase {
+    div.purchase-top {
+      img {
+  width: 375px;
+      }
+    }
+  
+    div.purchase-main {
+        overflow-x: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        
+      div.purchase-items{
+          margin-right: 20px;
+        img {
+  width: 110px;
+  height: 104px;
+        }
+  
+        p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+        }
+  
+        div {
+          span {
+  color: red;
+  line-height: 20px;
+  font-size: 20px;
+          }
+  
+          span.oldp {
+              text-decoration: line-through;
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
